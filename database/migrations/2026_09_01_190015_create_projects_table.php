@@ -13,16 +13,16 @@ return new class extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('company_name');
             $table->string('contact_name');
             $table->string('contact_email');
-            $table->string('contact_number');
-            $table->string('description');
-            $table->string('status');
-            $table->string('priority');
-            $table->string('assigned_to');
-            $table->string('start_date');
-            $table->string('end_date');
+            $table->string('contact_phone');
+            $table->text('description');
+            $table->string('status')->nullable();
+            $table->string('criticality')->nullable();
+            $table->string('assigned_to')->nullable();
+            $table->datetime('start_date')->nullable();
+            $table->datetime('end_date')->nullable();
             $table->timestamps();
         });
     }

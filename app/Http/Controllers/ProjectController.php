@@ -8,19 +8,11 @@ use Illuminate\Http\Request;
 class ProjectController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view('projects.create');
     }
 
     /**
@@ -28,7 +20,21 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $validated = $request->validate([
+            'company_name' => 'required',
+            'description' => 'required|string',
+            'contact_name' => 'required|string',
+            'contact_email' => 'required|email',
+            'contact_phone' => 'required|string',
+            'start_date' => 'nullable|date',
+            'end_date' => 'nullable|date',
+            'criticality' => 'nullable|string|in:Low,Standard,High,Critical',
+        ]);
+
+        Project::create($validated);
+
+        return redirect()->route('home')->with('success', 'Project created successfully.');
     }
 
     /**

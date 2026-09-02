@@ -1,7 +1,7 @@
 <header>
     <div class="wrap">
         <nav>
-            <a href="#top" class="logo">
+            <a href="/" class="logo">
                 <span class="mark">FC</span>
                 Future Code
             </a>
@@ -9,7 +9,7 @@
                 <a href="#services">Services</a>
                 <a href="#approach">Approach</a>
                 <a href="#process">Process</a>
-                <a href="#contact" class="btn btn-primary">Start a project</a>
+                <a href="{{ route('projects.create') }}" class="btn btn-primary">Start a project</a>
             </div>
         </nav>
     </div>

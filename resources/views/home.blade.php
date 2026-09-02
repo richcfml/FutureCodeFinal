@@ -10,7 +10,7 @@
                 with security always as a first requirement, not a final step.
             </p>
             <div class="hero-actions">
-                <a href="#contact" class="btn btn-primary">Start a project</a>
+                <a href="{{ route('projects.create') }}" class="btn btn-primary">Start a project</a>
                 <a href="#services" class="btn btn-ghost">View services</a>
             </div>
             <div class="boot mono">
