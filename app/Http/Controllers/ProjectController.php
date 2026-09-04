@@ -34,7 +34,7 @@ class ProjectController extends Controller
 
         Project::create($validated);
 
-        return redirect()->route('home')->with('success', 'Project created successfully.');
+        return redirect()->route('home')->with('success', 'Project sent successfully. We will be in touch soon.');
     }
 
     /**

@@ -195,6 +195,21 @@ nav{
     opacity: 0;
     animation: fadeUp 0.6s ease 0.1s forwards;
 }
+.flash{
+    display:block;
+    gap: 9px;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    color: var(--signal);
+    background: var(--signal-dim);
+    border: 1px solid rgba(62,207,142,0.25);
+    padding: 7px 13px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+    opacity: 0;
+    width: 40%;
+    animation: fadeUp 0.6s ease 0.1s forwards;
+}
 .hero h1{
     font-size: clamp(38px, 5.4vw, 66px);
     line-height: 1.05;

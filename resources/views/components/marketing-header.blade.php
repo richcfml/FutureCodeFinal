@@ -6,9 +6,9 @@
                 Future Code
             </a>
             <div class="navlinks">
-                <a href="#services">Services</a>
-                <a href="#approach">Approach</a>
-                <a href="#process">Process</a>
+                <a href="{{ route('home') }}#services">Services</a>
+                <a href="{{ route('home') }}#approach">Approach</a>
+                <a href="{{ route('home') }}#process">Process</a>
                 <a href="{{ route('projects.create') }}" class="btn btn-primary">Start a project</a>
             </div>
         </nav>

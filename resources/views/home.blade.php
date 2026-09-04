@@ -3,6 +3,9 @@
     <!-- HERO -->
     <section class="hero">
         <div class="wrap">
+            @session('success')
+            <div class="flash" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 5000)">{{ $value }}</div>
+            @endsession
             <span class="eyebrow"><span class="dot"></span> Systems checked. Code reviewed. Ready to build.</span>
             <h1>Software built right, <em>and secure.</em></h1>
             <p class="hero-sub">
@@ -189,7 +192,7 @@
                     <p>We'll respond within one business day with scope questions and a rough estimate — no sales call required to get that far.</p>
                 </div>
                 <div class="cta-actions">
-                    <a href="mailto:support@futurecode.dev" class="btn btn-primary">support@futurecode.dev</a>
+                    <a href="{{ route('projects.create') }}" class="btn btn-primary">Start a Project</a>
                     <a href="#top" class="btn btn-ghost">Back to top</a>
                 </div>
             </div>

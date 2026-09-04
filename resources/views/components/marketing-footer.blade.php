@@ -11,14 +11,14 @@
             <div class="footer-cols">
                 <div class="footer-col">
                     <h5>SERVICES</h5>
-                    <a href="#services">Web Development</a>
-                    <a href="#services">Penetration Testing</a>
+                    <a href="{{ route('home') }}#services">Web Development</a>
+                    <a href="{{ route('home') }}#services">Penetration Testing</a>
                 </div>
                 <div class="footer-col">
                     <h5>COMPANY</h5>
-                    <a href="#approach">Approach</a>
-                    <a href="#process">Process</a>
-                    <a href="#contact">Contact</a>
+                    <a href="{{ route('home') }}#approach">Approach</a>
+                    <a href="{{ route('home') }}#process">Process</a>
+                    <a href="{{ route('home') }}#contact">Contact</a>
                 </div>
                 <div class="footer-col">
                     <h5>CONTACT</h5>
