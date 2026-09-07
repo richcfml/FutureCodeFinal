@@ -23,7 +23,7 @@
                     <p class="fieldset-desc">What we should call this engagement, and who it's for.</p>
 
                     <div class="field">
-                        <label for="company_name">Project or company name<span class="req">*</span></label>
+                        <label for="company_name">Company name<span class="req">*</span></label>
                         <input type="text" id="company_name" name="company_name" placeholder="e.g. Meridian Logistics" required>
                         @error('company_name')
                             <div class="field-error-msg">{{ $message }}</div>
