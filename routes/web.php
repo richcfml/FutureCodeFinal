@@ -2,6 +2,7 @@
 
 
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\RegisteredUserController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +20,7 @@ Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('adm
 
 Route::delete('/logout', [AdminController::class, 'destroy'])->name('admin.destroy');
 
+
+Route::get('/register', [RegisteredUserController::class, 'create'])->name('register.create');
+Route::post('/register', [RegisteredUserController::class, 'store'])->name('register.store');
 
