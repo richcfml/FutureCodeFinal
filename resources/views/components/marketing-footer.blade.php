@@ -10,8 +10,7 @@
             </div>
             <div class="footer-cols">
                 <div class="footer-col">
-                    <h5>SERVICES</h5>
-                    <a href="{{ route('home') }}#services">Web Development</a>
+                    <h5>SERVICE</h5>
                     <a href="{{ route('home') }}#services">Penetration Testing</a>
                 </div>
                 <div class="footer-col">

@@ -7,14 +7,14 @@
             <div class="flash" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 5000)">{{ $value }}</div>
             @endsession
             <span class="eyebrow"><span class="dot"></span> Systems checked. Code reviewed. Ready to build.</span>
-            <h1>Software built right, <em>and secure.</em></h1>
+            <h1>Software Testing done right</h1>
             <p class="hero-sub">
-                Future Code designs, builds, and maintains the software your business needs, from custom applications to public-facing web platforms,
-                with security always as a first requirement, not a final step.
+                Future Code designs, builds, and maintains the testing software your business needs. From custom testing applications to web, mobile, and network platforms,
+                we always have security as our first requirement, not a final step. And we test that way.
             </p>
             <div class="hero-actions">
                 <a href="{{ route('projects.create') }}" class="btn btn-primary">Start a project</a>
-                <a href="#services" class="btn btn-ghost">View services</a>
+                <a href="#services" class="btn btn-ghost">View service</a>
             </div>
             <div class="boot mono">
                 <span><span class="ok">✓</span> 30+ years delivering production systems</span>
@@ -189,7 +189,7 @@
         <div class="wrap">
             <div class="cta-box">
                 <div>
-                    <h2>Tell us what you're building or what needs testing.</h2>
+                    <h2>Tell us what you're building and what needs testing.</h2>
                     <p>We'll respond within one business day with scope questions and a rough estimate — no sales call required to get that far.</p>
                 </div>
                 <div class="cta-actions">
