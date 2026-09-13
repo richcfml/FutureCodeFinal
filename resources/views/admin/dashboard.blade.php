@@ -3,13 +3,15 @@
     <div class="wrap">
         <div class="page-head">
             <div class="wrap">
-                @session('success')
-                <span class="eyebrow"><span class="dot"></span> {{ $value }} </span>
-                @endsession
+                <div x-data="{ showSuccess: true, showError: true }">
+                    @session('success')
+                    <span class="eyebrow" x-init="setTimeout(() => showSuccess = false, 3000)" x-show="showSuccess"><span class="dot"></span> {{ $value }} </span>
+                    @endsession
 
-                @session('error')
-                <div class="field-error-msg">{{ $value }}</div>
-                @endsession
+                    @session('error')
+                    <div class="field-error-msg" x-init="setTimeout(() => showError = false, 3000)" x-show="showError">{{ $value }}</div>
+                    @endsession
+                </div>
             </div>
         </div>
 

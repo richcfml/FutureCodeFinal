@@ -7,9 +7,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/06d1db45b2.js" crossorigin="anonymous"></script>
     <!-- Styles -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+
 </head>
 <body>
 
@@ -18,7 +20,6 @@
 <x-admin-header />
 
 <main id="top">
-
     {{ $slot }}
 
 </main>

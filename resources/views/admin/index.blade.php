@@ -3,10 +3,11 @@
     <div class="page-head">
         <div class="wrap">
             <span class="eyebrow"><span class="dot"></span> Login</span>
-
-            @session('error')
-                <div class="field-error-msg">{{ $value }}</div>
-            @endsession
+            <div x-data="{ showError: true }">
+                @session('error')
+                    <div class="field-error-msg" x-init="setTimeout(() => showError = false, 3000)" x-show="showError">{{ $value }}</div>
+                @endsession
+            </div>
         </div>
     </div>
 

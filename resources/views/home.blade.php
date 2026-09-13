@@ -42,13 +42,13 @@
     <section class="section" id="services">
         <div class="wrap">
             <div class="section-head">
-                <span class="section-tag">// SERVICES</span>
-                <h2>Two disciplines, one accountable team.</h2>
-                <p class="section-desc">The people who build your software are the same who are with you every step. Nothing hidden, no surprises, no handoffs. Our core value is we build it, we maintain it.</p>
+                <span class="section-tag">// SERVICE</span>
+                <h2>One discipline, one accountable team.</h2>
+                <p class="section-desc">The engineers you meet are with you every step. Nothing hidden, no surprises, no handoffs. Our core value is we build it, we maintain it.</p>
             </div>
 
             <div class="services">
-                <div class="service">
+                <!--<div class="service">
                     <div class="service-id">
                         <span class="service-tag mono"><span class="dot"></span> WEB //</span>
                         <h3>Web Development</h3>
@@ -62,7 +62,7 @@
                         <li>Site modernization</li>
                         <li>Ongoing maintenance</li>
                     </ul>
-                </div>
+                </div>-->
 
                 <div class="service">
                     <div class="service-id">
