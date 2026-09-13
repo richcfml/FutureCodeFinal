@@ -137,22 +137,23 @@
                 <div class="process-row">
                     <span class="process-step mono">02</span>
                     <div class="process-content">
-                        <h4>Build or test</h4>
-                        <p>Development runs in short, reviewable cycles. Security engagements follow a documented methodology, not automated scans alone.</p>
+                        <h4>Test</h4>
+                        <p>Security engagements follow a documented methodology, not automated scans alone.</p>
                     </div>
                 </div>
                 <div class="process-row">
                     <span class="process-step mono">03</span>
                     <div class="process-content">
                         <h4>Report</h4>
-                        <p>You get working software with documentation, or a findings report ranked by real business risk — written for engineers and decision-makers alike.</p>
+                        <p>You get a findings report ranked by real business risk — written for engineers and decision-makers alike.</p>
                     </div>
                 </div>
                 <div class="process-row">
                     <span class="process-step mono">04</span>
                     <div class="process-content">
                         <h4>Support</h4>
-                        <p>Fixes get retested at no extra charge. Applications get a maintenance window built into the handoff, not sold separately after the fact.</p>
+                        <p>Retest, vulnerability scope, and remediation are all part of the engagement and training support we can provide.</p>
+                        <!-- <p>Fixes get retested at no extra charge. Applications get a maintenance window built into the handoff, not sold separately after the fact.</p> -->
                     </div>
                 </div>
             </div>
